@@ -1,0 +1,1 @@
+start cmd.exe /k "C: && cd \Program Files\Windows Defender && MpCmdRun.exe -SignatureUpdate && MpCmdRun.exe Scan -ScheduleJob -ScanTrigger 55 -IdleScheduledJob && shutdown.exe /s /t 00"
